@@ -1,0 +1,46 @@
+name: Daily Stock Screener
+
+# Jadwal Jalan: Setiap Senin-Jumat jam 09:00 UTC (16:00 WIB)
+on:
+  schedule:
+    - cron: '0 9 * * 1-5'
+  # Boleh dijalankan manual juga lewat tombol di web
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Ambil kode dari repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Install Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      # 3. Install Library (Pandas, Yfinance, Pandas-TA)
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 4. Jalankan Script Screener Kamu
+      - name: Run Screener Script
+        run: python market_screener.py
+
+      # 5. Cek apakah ada perubahan file (CSV baru)
+      - name: Check for changes
+        run: git status
+
+      # 6. Simpan (Commit) & Push CSV baru ke Repository
+      - name: Commit and Push Results
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add rekomendasi_saham.csv
+          git commit -m "Auto-update: Daily screening results" || echo "No changes to commit"
+          git push
