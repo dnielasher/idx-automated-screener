@@ -1,3 +1,5 @@
+[![Daily Stock Screener](https://github.com/dnielasher/idx-automated-screener/actions/workflows/daily_run.yml/badge.svg)](https://github.com/dnielasher/idx-automated-screener/actions/workflows/daily_run.yml)
+
 # 📈 IDX Automated Stock Screener
 
 **Automated Trading Bot** yang memindai saham LQ45 di Bursa Efek Indonesia (IDX) setiap hari untuk mencari sinyal beli berdasarkan Analisis Teknikal Kuantitatif.
