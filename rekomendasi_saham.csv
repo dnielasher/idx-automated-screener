@@ -1,3 +1,5 @@
 Ticker,Close Price,RSI,EMA 200,Signal
-BMRI.JK,4760,39.34,4714,BUY (Trend + Discount)
-TLKM.JK,3450,45.15,3000,BUY (Trend + Discount)
+BBRI.JK,3700,57.21,3692,BUY (Trend + Discount)
+BMRI.JK,4770,40.45,4712,BUY (Trend + Discount)
+BBNI.JK,4220,43.43,4214,BUY (Trend + Discount)
+TLKM.JK,3520,51.03,3002,BUY (Golden Cross)
