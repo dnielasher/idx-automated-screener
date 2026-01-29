@@ -1,6 +1,7 @@
 Ticker,Close Price,RSI,EMA 200,Signal
-BBNI.JK,4440,51.98,4238,BUY (Trend + Discount)
-TLKM.JK,3470,43.46,3047,BUY (Trend + Discount)
-ASII.JK,6175,36.74,5565,BUY (Trend + Discount)
-ADRO.JK,2210,59.64,1773,BUY (Trend + Discount)
-PTBA.JK,2450,53.35,2383,BUY (Trend + Discount)
+BBRI.JK,3780,53.69,3702,BUY (Trend + Discount)
+BBNI.JK,4420,50.34,4240,BUY (Trend + Discount)
+TLKM.JK,3450,42.68,3051,BUY (Trend + Discount)
+ASII.JK,6475,44.33,5574,BUY (Trend + Discount)
+PTBA.JK,2440,51.88,2384,BUY (Trend + Discount)
+PGAS.JK,2080,56.06,1714,BUY (Trend + Discount)
