@@ -1,8 +1,6 @@
 Ticker,Close Price,RSI,EMA 200,Signal
-ASII.JK,5750,45.71,5610,BUY (Trend + Discount)
-UNTR.JK,26900,32.09,26452,BUY (Trend + Discount)
-ANTM.JK,3500,38.24,3461,BUY (Trend + Discount)
-MDKA.JK,2730,31.84,2722,BUY (Trend + Discount)
-ADRO.JK,2520,57.5,1952,BUY (Trend + Discount)
-PTBA.JK,2830,42.75,2598,BUY (Trend + Discount)
-PGAS.JK,1850,42.48,1827,BUY (Trend + Discount)
+ASII.JK,6000,54.11,5624,BUY (Golden Cross)
+UNTR.JK,26475,29.71,26468,BUY (Trend + Discount)
+ADRO.JK,2460,50.92,1965,BUY (Trend + Discount)
+PTBA.JK,2850,45.56,2602,BUY (Trend + Discount)
+PGAS.JK,1860,44.3,1828,BUY (Trend + Discount)
