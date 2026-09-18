@@ -1,7 +1,6 @@
 Ticker,Close Price,RSI,EMA 200,Signal
-BBRI.JK,3330,56.36,3258,BUY (Trend + Discount)
-BMRI.JK,4350,58.41,4211,BUY (Trend + Discount)
-INDF.JK,7175,45.7,6800,BUY (Trend + Discount)
-ANTM.JK,3280,59.82,3166,BUY (Trend + Discount)
-MDKA.JK,2870,47.19,2790,BUY (Trend + Discount)
-ADRO.JK,2670,54.5,2229,BUY (Trend + Discount)
+BBRI.JK,3310,54.47,3258,BUY (Trend + Discount)
+BMRI.JK,4260,51.06,4212,BUY (Trend + Discount)
+INDF.JK,7025,39.27,6799,BUY (Trend + Discount)
+MDKA.JK,2900,49.22,2792,BUY (Trend + Discount)
+ADRO.JK,2640,51.48,2233,BUY (Trend + Discount)
