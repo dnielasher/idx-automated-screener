@@ -1,4 +1,5 @@
 Ticker,Close Price,RSI,EMA 200,Signal
-INDF.JK,7000,51.65,6740,BUY (Trend + Discount)
-MDKA.JK,2900,48.9,2841,BUY (Trend + Discount)
-ADRO.JK,2510,44.94,2283,BUY (Trend + Discount)
+INDF.JK,6950,48.5,6739,BUY (Trend + Discount)
+MDKA.JK,2850,45.44,2843,BUY (Trend + Discount)
+ADRO.JK,2460,40.98,2285,BUY (Trend + Discount)
+PTBA.JK,3210,56.84,2640,BUY (Trend + Discount)
